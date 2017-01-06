@@ -1,0 +1,148 @@
+body {
+    font-family: Roboto;
+    min-height: auto;
+    margin: 0;
+    padding:0;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+#title {
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+#quiz {
+    text-indent: 10px;
+    display:none;
+    margin: 0 0 0 20%;
+}
+
+.button {
+    border:4px solid;
+    border-radius:5px;
+    width: 100px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: relative;
+    float:right;
+    background-color: #f9c800;
+    color: black;
+    margin: 0 25% 0 0;
+    text-align: center;
+}
+
+
+.button2 {
+    border:2px solid;
+    border-radius:2px;
+    width: 20%;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    height: 20px;
+    padding: 1% 2%;
+    text-decoration: none;
+    bottom: 360px;
+    transition: all 0.5s ease;
+    display: none;
+    height: auto;
+}
+
+.button2:hover {
+    border:2px solid #fff;
+    background-color: #fff;
+    color: #000;   
+}
+
+.button.active {
+    background-color: #F8F8FF;
+    color: #525252;
+}
+
+button {
+    position: relative;
+    float:right;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+#title {
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#container {
+    width:98%;
+    margin:auto;
+    padding: 0 0 45px 0;
+    background-color: #616faf;
+    background-image: url("img/ticket.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    border:4px solid #492b76;
+    border-radius:5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #888;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#prev {
+    display:none;
+}
+
+#start {
+    display:none;
+    width: 90px;
+}
+
+.marauto {
+    margin:auto;
+    text-align: center;
+}
+
+#imga, #imgb, #imgc, #imgd, #imge {
+    visibility: hidden;
+    width: 20%;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+#a, #b, #c, #d, #e{
+    display: none;    
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+#aaa, #bbb, #ccc, #ddd, #eee {
+    background-color: black;
+    text-align: center;
+    display: none;
+    width: 100%;
+    height: 400px;
+}
+
+.prev {
+    width: 40%;
+    margin: 50px 25% 0 25%;
+}
+
